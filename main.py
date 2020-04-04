@@ -2,7 +2,7 @@ from stays_collection import StaysCollection
 
 stays = StaysCollection('data/hotels.csv')
 
-# stays.generate_svg('days_at_home.svg')
+stays.generate_svg('days_at_home.svg')
 
 # stays.print_grouped_trips()
 # stays.print_superlative_rows()
